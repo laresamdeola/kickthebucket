@@ -31,13 +31,13 @@ const remainingYears = (life: age) => {
   return lifeExpectancy
 }
 
-const satoglu: age = {
-  yearOfBirth: 2000,
-  residentCountry: 'Nigeria'
+const person: age = {
+  yearOfBirth: 1992,
+  residentCountry: 'United States'
 }
 
 if (lifeExpectancy === 0) {
-  console.log(`Sorry ${satoglu.residentCountry}\'s data is not available`)
+  console.log(`Sorry ${person.residentCountry}\'s data is not available`)
 } else {
-  console.log(`You have ${remainingYears(satoglu)} years left.`)
+  console.log(`You have ${remainingYears(person)} years left.`)
 }
